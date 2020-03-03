@@ -11,5 +11,5 @@ console.log(buttonOne);
 buttonOne.addEventListener("click", changes)
 function changes() {
     buttonOne.classList.add("differentbackground");
-    buttonOne.innerText = "1";
+    headerText.innerText = "1";
 }
