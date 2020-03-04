@@ -10,6 +10,6 @@ console.log(buttonOne);
 
 buttonOne.addEventListener("click", changes)
 function changes() {
-    buttonOne.classList.add("differentbackground");
+    buttonOne.classList.add("differentbackground"); // you should be adding the color to the header not the btn
     headerText.innerText = "1";
 }
